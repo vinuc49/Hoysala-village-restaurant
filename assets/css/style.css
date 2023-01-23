@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
+
+body {
+    font-family: Lato, sans-serif;
+    color: #3a3a3a;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* headings and logo */
+
+h1,
+h2 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
+}
+
+#logo {
+    float: left;
+    font-size: 250%;
+    margin-left: 30px;
+    margin-top: 10px;
+
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#logo,
+#menu {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+#hoysala-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#hoysala-image {
+    height: 600px;
+    width: 100%;
+    margin-left: 30px;
+    background: url("../images/gulab-jamuns.jpg") center center / cover no-repeat;
+
+}
+
+/*about-us*/
+.middle-section {
+
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+}
+
+.about-us-top {
+    width: 100%;
+    margin: 20px;
+}
+
+.about-us-top p {
+    text-align: justify;
+    margin-right: 20px;
+    margin-left: 10px;
+
+}
+
+/* welcome section*/
+#welcome {
+    float: left;
+    width: 50%;
+    flex-grow: 1;
+}
+
+#welcome h2 {
+    text-align: center;
+}
+
+#welcome p {
+    margin: auto 10%;
+    line-height: 20px;
+    text-align: justify;
+}
+
+#welcome-image {
+    position: relative;
+    margin: 40px 10% 0;
+    overflow: hidden;
+}
+
+#welcome-image img {
+    max-width: 100%;
+}
+
+/* food section*/
+#food {
+    float: right;
+    width: 50%;
+    flex-grow: 1;
+}
+
+#food h2 {
+    text-align: center;
+}
+
+#food p {
+    margin: auto 10%;
+    line-height: 20px;
+    text-align: justify;
+}
+
+#food-image {
+    position: relative;
+    margin: 40px 10% 0;
+    overflow: hidden;
+}
+
+#food img {
+    max-width: 100%;
+}
+
+/*footer*/
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+    display: inline;
+    margin-bottom: 30px;
+
+}
+
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
