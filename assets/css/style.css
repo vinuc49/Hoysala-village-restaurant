@@ -220,3 +220,78 @@ display: inline-block;
     padding: 5%;
     color: #c0c5c8;
 }
+/*book*/
+.form-section {
+    clear: left;
+    background: url("../images/book.jpg") center center / cover no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+#form-section {
+    float: left;
+    width: 33%;
+    text-align: left;
+    flex-grow: 1;
+    font-weight: 100;
+}
+
+#form-section h2 {
+    text-align: center;
+}
+
+#form-section form {
+    padding: 0 15%;
+}
+
+.form-input {
+    display: block;
+    border: 1px solid #133944;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#choose-treatment {
+    margin-bottom: 15px;
+}
+.button-90 {
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 100px;
+    background-color: #4C43CD;
+    background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 87% at 26% 20%, rgba(255, 255, 255, 0.41) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: 2px 19px 31px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    font-size: 16px;
+  
+    border: 0;
+  
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  
+    cursor: pointer;
+  }
+
+/* Style find us section */
+
+#find-us-section {
+    float: right;
+    width: 66%;
+    flex-grow: 1;
+}
+
+#find-us-section h2 {
+    text-align: center;
+}
+
+/* Style map */
+
+#map {
+    text-align: center;
+}
+
+#map iframe{
+    width: 80%;
+    height: 450px;
+}

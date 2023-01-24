@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,6 +13,7 @@
 
     <title>HOYSALA VILLAGE RESTAURANT</title>
 </head>
+
 <body>
     <!--this is header section-->
     <header>
@@ -32,6 +34,64 @@
             </ul>
         </nav>
     </header>
+    <!--form section-->
+    <section class="form-section">
+        <div class="section-wrapper">
+            <!-- Book Now form section -->
+            <section id="form-section">
+                <form action="https://formdump.codeinstitute.net" method="POST">
+                    <h2>Book Now</h2>
+                    <div>
+                        <label for="fname">First Name</label>
+                        <input class="form-input" id="fname" type="text" name="first_name" required>
+                    </div>
+                    <div>
+                        <label for="lname">Last Name</label>
+                        <input class="form-input" id="lname" type="text" name="last_name" required>
+                    </div>
+                    <div>
+                        <label for="email">Email Address</label>
+                        <input class="form-input" id="email" type="email" name="email_address" required>
+                    </div>
+                    <div id="choose-treatment">
+                        <label for="number" class="block-label">Number of guest</label><br>
+                        <select id="number" name="number" required>
+                            <option value="one">1-2</option>
+                            <option value="two">2-4</option>
+                            <option value="three">4-8</option>
+                            <option value="four">8-10</option>
+                            <option value="five">10+</option>
+                            
+                        </select>
+                    </div>
+                    <div>
+                        <label class="form-label" for="date">Date</label>
+                        <input class="form-input" id="date" type="date" name="booking-date" required>
+                    </div>
+                    <div>
+                        <label class="form-label" for="time">Time</label>
+                        <input class="form-input" id="time" type="time" name="booking-time" required>
+                    </div>
+                    <div>
+                        <label for="feedback">Feedback</label>
+                        <br>
+                        <textarea id="feedback" cols="50" rows="10" name="feedback"
+                            placeholder="Your Feedback"></textarea>
+                        <br>
+                    </div>
+                    <button class="button-90" role="button">Book</button>
+                </form>
+            </section>
+
+            <!-- Find us section -->
+            <section id="find-us-section">
+                <h2>Find Us</h2>
+                <div id="map">
+                    <iframe src="https://bit.ly/3Am9tY2" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </section>
+        </div>
+    </section>
     <!--footer section-->
     <footer>
         <div class=”footer-content”>
@@ -77,6 +137,7 @@
         </div>
 
 
+
     </footer>
 
 
@@ -84,4 +145,5 @@
     <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
 
 </body>
+
 </html>
