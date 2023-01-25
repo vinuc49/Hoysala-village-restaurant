@@ -42,41 +42,41 @@
                 <form action="https://formdump.codeinstitute.net" method="POST">
                     <h2>Book Now</h2>
                     <div>
-                        <label for="fname">First Name</label>
+                        <label for="fname"><strong>Name</strong></label>
                         <input class="form-input" id="fname" type="text" name="first_name" required>
                     </div>
                     <div>
-                        <label for="lname">Last Name</label>
+                        <label for="lname"><strong>Last Name</strong></label>
                         <input class="form-input" id="lname" type="text" name="last_name" required>
                     </div>
                     <div>
-                        <label for="email">Email Address</label>
+                        <label for="email"><strong>Email Address</strong></label>
                         <input class="form-input" id="email" type="email" name="email_address" required>
                     </div>
-                    <div id="choose-treatment">
-                        <label for="number" class="block-label">Number of guest</label><br>
+                    <div id="guest">
+                        <label for="number" class="block-label"><strong>Number of guest</strong></label><br>
                         <select id="number" name="number" required>
                             <option value="one">1-2</option>
                             <option value="two">2-4</option>
                             <option value="three">4-8</option>
                             <option value="four">8-10</option>
                             <option value="five">10+</option>
-                            
+
                         </select>
                     </div>
                     <div>
-                        <label class="form-label" for="date">Date</label>
+                        <label class="form-label" for="date"><strong>Date</strong></label>
                         <input class="form-input" id="date" type="date" name="booking-date" required>
                     </div>
                     <div>
-                        <label class="form-label" for="time">Time</label>
+                        <label class="form-label" for="time"><strong>Time</strong></label>
                         <input class="form-input" id="time" type="time" name="booking-time" required>
                     </div>
                     <div>
-                        <label for="feedback">Feedback</label>
+                        <label for="message"><strong>Message</strong></label>
                         <br>
-                        <textarea id="feedback" cols="50" rows="10" name="feedback"
-                            placeholder="Your Feedback"></textarea>
+                        <textarea id="message" cols="58" rows="10" name="Message"
+                            placeholder="Your message"></textarea>
                         <br>
                     </div>
                     <button class="button-90" role="button">Book</button>
@@ -87,7 +87,9 @@
             <section id="find-us-section">
                 <h2>Find Us</h2>
                 <div id="map">
-                    <iframe src="https://bit.ly/3Am9tY2" allowfullscreen="" loading="lazy"></iframe>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.100676862009!2d76.06468631532819!3d13.029260390818074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba537dd548092e1%3A0x90138082eec5bf5b!2sHoysala%20Village%20Resort!5e0!3m2!1sen!2sie!4v1674660293053!5m2!1sen!2sie"
+                        allowfullscreen="" loading="lazy"></iframe>
                 </div>
             </section>
         </div>

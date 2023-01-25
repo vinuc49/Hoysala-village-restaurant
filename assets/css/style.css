@@ -174,7 +174,7 @@ footer{
     display: inline-block;
     position: relative;
     margin: 5px;
-    margin-left: 60px;
+    margin-left: 30px;
 }
 #open{
     display: inline-block;
@@ -204,7 +204,6 @@ footer{
 #social-icons{
     position: relative;
     margin: 25px;
-    margin-left: 150px;
     float: right;
 }
 #social-icons li{
@@ -251,14 +250,14 @@ display: inline-block;
     margin-bottom: 15px;
 }
 
-#choose-treatment {
+#guest {
     margin-bottom: 15px;
 }
 .button-90 {
     color: #fff;
     padding: 15px 25px;
     border-radius: 100px;
-    background-color: #4C43CD;
+    background-color: #121212;
     background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 87% at 26% 20%, rgba(255, 255, 255, 0.41) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
     box-shadow: 2px 19px 31px rgba(0, 0, 0, 0.2);
     font-weight: bold;
@@ -292,6 +291,6 @@ display: inline-block;
 }
 
 #map iframe{
-    width: 80%;
+    width: 50%;
     height: 450px;
 }
