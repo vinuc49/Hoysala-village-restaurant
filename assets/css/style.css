@@ -284,6 +284,9 @@ footer {
 #guest {
     margin-bottom: 15px;
 }
+#message{
+    width: 100%;
+}
 
 .button-90 {
     color: #fff;
