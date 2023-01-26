@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
+
+* {
+    /*outline: solid 1px red;*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
 body {
     font-family: Lato, sans-serif;
     color: #3a3a3a;
@@ -62,6 +69,7 @@ h2 {
 #hoysala-outer {
     height: 600px;
     width: 100%;
+    margin: 0px;
     overflow: hidden;
     position: relative;
 }
@@ -77,6 +85,7 @@ h2 {
 .section-wrapper {
     display: flex;
     height: 800px;
+    margin-top: 30px;
 }
 
 /*about-us*/
@@ -88,6 +97,11 @@ h2 {
     width: 99%;
     margin: 10px;
     margin-left: 20px;
+}
+
+.about-us-bottom {
+    margin : 100px;
+    
 }
 
 .about-us-top p {
@@ -161,7 +175,7 @@ footer {
     overflow: hidden;
     background: #252525;
     clear: both;
-    height: 120px;
+    
     width: 100%;
     padding-top: 0px;
     color: #fff;
@@ -169,6 +183,7 @@ footer {
 
 .footer-content {
     display: flex;
+    height: 120px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -240,6 +255,7 @@ footer {
     background-size: cover;
     background-position: center;
     height: 878px;
+    padding-top: 100px;
 }
 
 #form-section {
@@ -304,6 +320,7 @@ footer {
 
 #map {
     text-align: center;
+    margin-top: 30px;
 }
 
 #map iframe {
@@ -335,3 +352,98 @@ footer {
     width: 10px;
     margin: auto;
 }
+
+/* media queries*/
+/* Style medium screen sizes from 1200px wide and down */
+
+@media screen and (max-width: 1200px) {
+
+    .menu-section {
+        position: relative;
+        display: inline;
+    }
+
+    .starters {
+        position: relative;
+        width: 100%;
+        left: 0;
+        height: fit-content;
+    }
+
+    .starters-images {
+        position: relative;
+        width: 100%;
+        left: 0;
+    }
+
+    }
+
+    /* Style medium screen sizes from 1000px wide and down */
+
+@media screen and (max-width: 1000px) {
+
+    #menu li {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .about-us-top {
+        width: 100%;
+    }
+
+    .about-us-bottom {
+        width: 100%;
+        
+    }
+
+    #form-section {
+        width: 100%;
+        background-color: #fff;
+    }
+
+    #find-us-section {
+        width: 100%;
+    }
+
+    .section-wrapper {
+        display: block;
+    }
+
+}
+
+    /* Style small screen sizes from 425px wide and down */
+
+    @media screen and (max-width: 425px) {
+
+        .footer-content {
+            width: 100%;
+            text-align: center;
+            margin: 50px 0;
+            display: block;
+        }
+
+        #social-icons {
+            text-align: center;
+            width: 100%;
+            margin: 100px 0;
+        }
+
+        footer > p {
+            position: absolute;
+            text-align: center;
+            width: 100%;
+            bottom: 20px;
+        }
+
+        .form-section  {
+            height: 300px;
+        }
+
+        .starters-images {
+            height: 300px;
+        }
+
+        #map iframe{
+            height: 300px;
+        }
+    }
