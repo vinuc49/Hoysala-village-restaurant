@@ -51,13 +51,13 @@ The purpose of this website is to promote Hoysala village Restaurant and to prov
 * **Starters**
 ![Starters section image](assets/readme-images/starters-image.PNG)
 
-    - The section contains an image to illustrate the respective indian food starters and a short text with an name of the that starters.
+    - The section contains an image to illustrate the respective indian food starters and a short text with an name of that starters.
 
 * **Main course**
 
   ![Main course section image](assets/readme-images/main-course.PNG)
 
-    - The section contains an image to illustrate the respective indian main course food  and a short text with an name of the that food.
+    - The section contains an image to illustrate the respective indian main course food  and a short text with an name of that food.
 
 ### Book Now Page
 
@@ -92,7 +92,7 @@ The purpose of this website is to promote Hoysala village Restaurant and to prov
      - Font Awesome was used throughout all pages to add icons in order to create a better visual experience for UX purposes.
 
 * [photopea](https://www.photopea.com/)
-    - TinyPNG was used to reduce the file size of the images for the website.
+    - Photopea was used to reduce the file size of the images for the website.
 
 * [GitPod](https://gitpod.io/)
      - GitPod was used for writing code, committing, and then pushing to GitHub.
@@ -199,11 +199,9 @@ The purpose of this website is to promote Hoysala village Restaurant and to prov
 
 * Here are the steps to deploy this website to GitHub Pages from its GitHub repository:
 
-    1. Log in to GitHub and locate the [GitHub Repository](https://github.com/).
+    1. Log in to GitHub and locate the [GitHub Repository](https://github.com/vinuc49/Hoysala-village-restaurant).
 
     2. At the top of the Repository, locate the Settings button on the menu.
-
-        - Alternatively click [here](https://raw.githubusercontent.com/) for a GIF demostration of the process.
 
     3. Scroll down the Settings page until you locate the Pages section.
 
